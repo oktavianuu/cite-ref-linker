@@ -1,0 +1,18 @@
+VALIDATION REPORT
+=================
+BROKEN (6):
+ [x] Fajri, Roviati, & Anugrah, 2021
+ [x] Irnaningtyas (2015)
+ [x] Nurhayati & Wijayanti (2021)
+ [x] Oztas (2009)
+ [x] Pratiwi et al. (2018)
+ [x] Safitri (2016)
+
+UNUSED (7):
+ [?] Azzahra_2023
+ [?] Machová_2021
+ [?] Papanikolaou_2011
+ [?] Ratledge_2002
+ [?] Sukmawati_2020
+ [?] Triyaswati_2020
+ [?] Zanders_2022

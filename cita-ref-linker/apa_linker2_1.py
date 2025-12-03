@@ -76,7 +76,7 @@ print("\n" + "="*50)
 print("      AUTO-LINKER & VALIDATOR v2.1 (UNICODE)      ")
 print("="*50 + "\n")
 
-input_filename = "palupi.docx"
+input_filename = "kusniawati_et_al.2025.docx"
 print(f"[*] Loading {input_filename}...")
 doc = Document(input_filename)
 
@@ -91,7 +91,7 @@ in_refs_section = False
 
 # UPDATED REGEX: 
 # ^([\w\-\']+) -> Matches "Cantón", "O'Neil", "Smith-Jones" (stops at space/comma)
-ref_pattern = r"^([\w\-\']+).*?\((\d{4})\)"
+ref_pattern = r"^([\w\-\']+).*?\(?(\d{4})\)?"
 
 # --- PHASE 1: MAPPING ---
 print("\n[*] Tahap 1: Menscan Daftar Referensi")
@@ -204,7 +204,7 @@ for i, p in enumerate(all_paragraphs):
 
 # --- REPORTING ---
 print("\n[*] Menyimpan Dokumen...")
-doc.save("output_palupi_linked_v2.docx")
+doc.save("output_kusniawati_linked_v2.docx")
 
 all_ref_keys = set(ref_map.keys())
 unused_references = all_ref_keys - linked_references
